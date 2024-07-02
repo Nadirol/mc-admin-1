@@ -1,3 +1,4 @@
+import bannerXHH from "./bannerXHH";
 import order from "./order";
 import orderXHH from "./orderXHH";
 import policy from "./policy";
@@ -6,4 +7,4 @@ import postXHH from "./postXHH";
 import product from "./product";
 import productPostXHH from "./productPostXHH";
 
-export const schemaTypes = [post, product, order, policy, postXHH, productPostXHH, orderXHH]
+export const schemaTypes = [post, product, order, policy, postXHH, productPostXHH, orderXHH, bannerXHH]

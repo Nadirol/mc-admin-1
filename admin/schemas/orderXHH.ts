@@ -95,6 +95,12 @@ export default {
                         title: 'Số lượng',
                         type: 'number',
                         readOnly: (document: any) => document.isCompleted
+                    },
+                    {
+                        name: 'variation',
+                        title: 'Phân loại',
+                        type: 'string',
+                        readOnly: (document: any) => document.isCompleted
                     }
                 ]
             }],
